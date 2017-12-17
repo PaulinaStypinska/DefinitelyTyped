@@ -781,7 +781,7 @@ declare namespace c3 {
         /**
          * Whether to show each point in line.
          */
-        show?: boolean;
+        show?: boolean | ((d: any) => boolean);
         /**
          * The radius size of each point.
          */
